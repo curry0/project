@@ -1,0 +1,367 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #000000 url(images/img01.gif) repeat-x left top;
+	line-height: 25px;
+	font-family: "Vollkorn" , Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #636363;
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+h1 { font-size: 44px; }
+
+h2 { font-size: 20px; }
+
+p, ul, {
+	margin-top: 0;
+	text-align: justify;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+a { 
+	color: #8F8F8F;
+	text-decoration: none;
+}
+
+a:hover { 
+	text-decoration: none;
+	color: #C2AF00;
+}
+
+a img {
+	border: none;
+	height: 300px;
+	width: 588px;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+/* Header */
+
+#header-wrapper {
+	width: 920px;
+	height: 173px;
+	background: url(images/img02.jpg) no-repeat left top;
+	margin: 0px auto;
+	padding: 0px;
+	/*position: sticky;
+	top: 0;*/
+
+}
+
+#header {
+	width: 920px;
+	height: 173px;
+	margin: 0px auto;
+
+}
+/*end of Header*/
+
+/* Logo */
+
+#logo {
+	float: left;
+	padding: 120px 0 0 40px;
+}
+
+#logo h1 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	font: normal 36px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#logo h1 a {
+	color: #FFFFFF;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #666666;
+}
+/* end of Logo */
+
+/* Menu */
+
+#menu {
+	float: right;
+	height: 173px;
+
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 125px 40px 0px 0px;
+	list-style: none;
+
+}
+
+#menu li {
+	float: left;
+
+}
+
+#menu a {
+	padding: 0px 20px 0px 22px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 14px;
+	color: #7B7B7B;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	color: #C2AF00;
+}
+
+.active {
+	background-color: white;
+}
+
+/* Page */
+
+#page {
+	width: 840px;
+	margin: 0px auto;
+	padding: 40px 40px 0px 40px;
+	background: url(images/img04.jpg) repeat-x left top;
+}
+/*End Page*/
+
+/* Content */
+
+#content {
+	float: left;
+	width: 590px;
+}
+
+#banner {
+	padding-bottom: 40px;
+}
+/* End Content */
+
+/* Post */
+
+.post {
+	margin-bottom: 25px;
+	text-align: justify;
+}
+
+/* The .title in post. In index.html, that's "Introduction" */
+.post .title {
+	height: 32px;
+	padding: 26px 0px 0px 30px;
+	background: url(images/img06.jpg) no-repeat left top;
+	text-transform: lowercase;
+	font-size: 24px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.post .title h2 {
+	margin: 0px;
+	padding: 0px;
+}
+/*End of .title */
+
+.post strong {
+	color: #9B9A9A;	
+}
+
+.post .entry {
+	background: url(images/img07.jpg) no-repeat left top;
+}
+
+.post .entry-btm {
+	padding: 20px 30px;
+	background: url(images/img08.jpg) no-repeat left bottom;
+}
+
+.about{
+   background-color: white;
+   color: black;
+   text-shadow: 1px 1px #4A4949;
+   width: 80%;
+   font-size: 16px;
+}
+/* This class is used only in about.html */
+
+/* End of Post */
+
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 220px;
+}
+
+#sidebar ul {
+	margin: 0px;
+	list-style: none;
+	line-height: normal;
+	text-align:justify;
+	border: none;
+	font-size: 13px;
+}
+
+#sidebar li {
+	margin-bottom: 30px;
+}
+
+#sidebar li ul {
+	line-height: 200%;
+	padding: 0px 30px;
+	background: url(images/img12.jpg) no-repeat left top;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 7px 0px;
+	background: url(images/img13.jpg) repeat-x left bottom;
+}
+#image {
+	width: 260px;
+	height: 400px;
+}
+
+#sidebar p {
+	margin: 0;
+	padding: 0 20px;
+	font-size: 13px;
+}
+
+#sidebar h2 {
+	width: 190px;
+	height: 26px;
+	padding: 20px 30px 0px 0px;
+	background: url(images/img11.jpg) no-repeat left top;
+	text-align: right;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+
+#sidebar p {
+	line-height: 200%;
+	padding-bottom: 20px;
+}
+
+#sidebar a {
+	text-decoration: none;
+}
+#sidebar a:hover{
+	color: #C2AF00;
+}
+
+/* End of Sidebar */
+
+
+/* Search */
+
+#search {
+	width: 220px;
+	padding-bottom: 10px;
+}
+
+#search form {
+	margin: 0;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search input {
+	float: left;
+}
+
+#search-text {
+	width: 176px;
+	height: 22px;
+	padding: 7px 0px 0px 10px;
+	background: #0B0B0B url(images/img16.jpg) no-repeat left top;
+	border: none;
+	color: #636363;
+}
+
+#search-submit {
+	float: left;
+	width: 34px;
+	height: 29px;
+	background: url(images/img17.jpg) no-repeat left top;
+	border: none;
+	color: #636363;
+}
+ 
+/* End of Search */
+
+/* Footer */
+
+#footer {
+	width: 920px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 0px;
+	background: url(images/img05.jpg) no-repeat left top;
+
+}
+
+#footer p {
+	margin: 0;
+	padding: 50px 0;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: normal;
+	font-size: 13px;
+	color: white;
+	text-shadow: 2px 2px #A17A7A;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+}
+
+/* End of Footer */
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  body{
+  	width: 100%;
+  }
+  #menu {
+    width: 100%;
+    padding: 0;
+  }
+  #page,#wrapper,#header,#logo,#banner,#content,#sidebar,#search,#search-text,#search-submit, .post,.entry,.entry-btm,.title,
+  #footer,#image,#calendar,.about {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+    #page,#wrapper,#header,#logo,#banner,#content,#sidebar,#search,#search-text,#search-submit, .post,.entry,.entry-btm,.title,
+  #footer,#image{
+    width: 100%;
+  }
+}

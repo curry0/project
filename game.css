@@ -1,0 +1,177 @@
+ body {
+   font-family: 'ghoulish';
+ }
+
+ @font-face {
+   font-family: 'ghoulish';
+   /*a name to be used later*/
+   src: url('https://dl.dropbox.com/s/2fciaz6wz89d2au/Ghoulish.ttf?dl=0');
+   /*URL to font*/
+ }
+
+/*Choose eazy or hard*/
+
+ 
+ /*It appears in nav bar and what we want to choose, eazy or hard*/
+ .active {
+   background: url(https://dl.dropbox.com/s/60zpke069pjb6tz/bat.svg?dl=0);
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100px;
+ }
+
+
+ h1 {
+   font-family: 'ghoulish';
+   margin: 2.1rem 0 0rem 0;
+   font-size: 90px;
+   text-align: center;
+ }
+
+ .cat {
+   background: url(https://dl.dropbox.com/s/2ss4nugh4ib5ph9/cat.svg?dl=0);
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 50px;
+ }
+
+/*the height between Spooky edition and TicTacToe*/
+  .headerLine {
+   background-color: black;
+   display: inline-block;
+   height: 25px;
+ }
+
+ /*"Spooky edition"*/
+ .fancy {
+   line-height: 0.5;
+   text-align: center;
+ }
+ 
+ .fancy span {
+   display: inline-block;
+   position: relative;
+   font-size: 30px;
+ }
+ /*The :before selector inserts something before the content of each selected element(s)*/
+ /*The ::after selector inserts something after the content.*/
+ 
+ .fancy span:before,
+ .fancy span:after {
+   content: "";
+   position: absolute;
+   height: 5px;
+   border-bottom: 1px solid #7c6e76;
+   border-top: 1px solid #7c6e76;
+   top: 0;
+   width: 100px;
+ }
+ 
+ .fancy span:before {
+   right: 100%;
+   margin-right: 15px;
+   font-size: 28px;
+ }
+ 
+ .fancy span:after {
+   left: 100%;
+   margin-left: 15px;
+ }
+ /*End of "Spooky edition"*/
+  
+ .row {
+   margin-bottom: 0;
+ }
+  /*The score*/
+ #score {
+   color: #a19f9f;
+   text-shadow: 2px 2px black;
+   height: 300px;
+   width: 250px;
+   background: url(https://dl.dropbox.com/s/a1ps0rio4s8bi24/tomb.svg?dl=0);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   padding-top: 80px;
+   font-size: 30px;
+   margin-top: 240px;
+   padding-left: 80px;
+   line-height: 1.5;
+ }
+
+
+/* Where we choose the simbol and eazy/hard*/
+ main {
+
+   border-radius: 13px 13px 13px 13px;
+   -moz-border-radius: 13px 13px 13px 13px;
+   -webkit-border-radius: 13px 13px 13px 13px;
+   border: 5px solid #000000;
+   background-color: rgba(51, 50, 50, 0.32);
+   padding: 15px 0 15px 0;
+   height: 540px;
+   width: 440px;
+ }
+ 
+ #tokenSelection {
+   margin-top: 30px;
+
+ }
+
+ .gameText {
+   font-size: 30px;
+   text-align: center;
+ }
+  .difficulty {
+   width: 150px;
+   height: 150px;
+ }
+ 
+/*#tokenSelection>button will only target the button that are DIRECT descentdants of #tokenSelectin*/
+ #tokenSelection>button {
+   margin: 30px 30px 30px 30px;
+ }
+
+ #tokenX  {
+   margin-left: 50px;
+ }
+
+ #gameEnd {
+   text-align: center;
+ }
+ #playAgain {
+   margin-top: 50px;
+ }
+ 
+ button {
+   background-color: transparent;
+   background-repeat: no-repeat;
+   border: none;
+   cursor: pointer;
+   overflow: hidden;
+   outline: none;
+   font-size: 30px;
+ }
+ 
+ button:focus {
+   background-color: transparent;
+ }
+
+ 
+ #btn {
+   padding-left: 40px;
+ }
+ /*end of main*/
+
+#footer p {
+
+   font-size: 15px;
+   color: #C2AF00;
+   text-shadow: 0px 0px ;
+}
+#footer a {
+   color: #C2AF00;
+}
+
+
+
+
